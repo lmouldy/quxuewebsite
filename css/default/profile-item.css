@@ -1,0 +1,39 @@
+
+.home {
+    width: 1200px;
+    height: auto;
+    margin: 30px auto;
+    font-family: 'Microsoft YaHei';
+}
+
+.title {
+    font-size: 16px;
+}
+
+.title a {
+    color: #941e23;
+}
+
+.main {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+.tit, .date {
+    text-align: center;
+}
+
+.date {
+    color: #838282;
+    line-height: 40px;
+}
+
+.content {
+    word-wrap: break-word;
+    word-break: break-word;
+    text-indent: 2em;
+    color: #000;
+    font-size: 14px;
+}

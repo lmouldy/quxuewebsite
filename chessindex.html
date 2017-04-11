@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="renderer" content="webkit">
+		<meta property="qc:admins" content="34710146116015106375" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />  
+		<link rel="shortcut icon" href="/images/pm/default/quxue.ico" >
+		<link rel="stylesheet" href="../css/default/common.css">
+		<link rel="stylesheet" href="../css/default/chessindex.css">
+		<link rel="stylesheet" href="../font/style.css" />		
+	</head>
+	<body>
+	<div class="home">				
+		<div id="loginBox" class="login-box">
+		    <div class="login-inner">
+		        <a class="close-btn" href="javascript:void(0);"></a>
+		        <div class="fl login-con">
+		        </div>
+		        <div class="fr login-side">
+		            <div class="trans-link">
+		                <p>已有账号？</p>
+		                <a href="javascript:void(0);">立即登录</a>
+		            </div>
+		            <div class="partner-link">
+		                <p>合作账号登录</p>
+		                <a class="partner-qq" href="javascript:void(0);"></a>
+		                <a class="partner-wb" href="javascript:void(0);"></a>
+		                <a class="partner-wx" href="javascript:void(0);"></a>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="mask-layer"></div>
+		</div>
+		<div class="c-header">
+			<p class="c-title">国际象棋教学初期</p>
+			<ul class="fl c-livetabs">
+		<!--				<li><a href="javascript:;" data-rel="c-timetable">课程表</a></li>
+							<li><a href="javascript:;" data-rel="c-ppt">PPT</a></li>
+							<li><a href="javascript:;" data-rel="c-onlinetech" class="active">直播教学</a></li>
+							<li>国际象棋教学初期</li>
+		-->				</ul>
+			<div class="fr">
+				<div class="share fl">
+					<div class="share-img"><span class="icon-by-share"></span></div>		
+					<div class="share-box">
+						<div class="fl share-style">
+							<p>呼唤小伙伴们前来围观吧</p>
+							<p>
+								<a href="javascript:;" class="share-wb" data-rel="wb"></a>
+								<a href="javascript:;" class="share-qq" data-rel="qq"></a>
+								<a href="javascript:;" class="share-zone" data-rel="zone"></a>
+							</p>
+						</div>
+						<div class="fl share-wx">
+							<img src="http://qr.liantu.com/api.php?gc=222222&el=l&w=100&m=2&text=">
+							<p>微信扫码分享</p>
+						</div>
+						<i class="arrow-top"></i>
+					</div>
+				</div>
+				<div class="change-screen fl">
+					<span><img src="../images/chess/four.png" class="hide"><img src="../images/chess/four_c.png"></span>
+					<span><img src="../images/chess/nine.png"><img src="../images/chess/nine_c.png"></span>
+					<span><img src="../images/chess/sixth.png"><img src="../images/chess/sixth_c.png"></span>
+				</div>
+			<!--<button class="c-closestu fr" style="visibility: hidden;">关闭学生</button>	-->
+			</div>
+		</div>
+		<div class="c-wrap">
+			<div class="c-onlinetech ">
+				<div class="c-wrap-l fl">
+					<div class="c-video">
+						<div class="autoV">
+                            <div id="qxPlayer"></div>
+                            <div id="switchStu"><p class="icon-by-refresh" title="切换视频"></p></div>
+			            	<div id="playerPromtBox" >
+			            		<div class="p-inner">
+			            			<p class="p-title">直播信息</p>
+			            			<div class="p-con">
+			            				<p class="p-con-url"><label>URL地址：</label><span></span><a id="copUrlBtn" class="p-copy-url" href="javascript:void(0);"></a></p>
+			            				<a class="show-helptext-link" href="javascript:void(0);">查看直播教程</a>
+			            			</div>
+			            			<a class="close-btn" href="javascript:void(0);"></a>
+			            		</div>
+			            	</div>
+                        </div>
+						<!--<img src="images/chess/shufateach.jpg" class="autoV">-->
+					</div>
+					<div class="c-mes">
+						<div class="c-mes-l fl">
+							<div class="stu-head"><h3>学生列表<span style="font-size: 12px;padding:0 4px;">人</span></h3></div>
+							<ul class="stu-list">
+<!--								<li>
+									<a class="stu-ava"><img src="../images/chess/avatar_07.png"></a>
+									<font></font>
+									<span class="stu-fuc"><a class="icon-by-glass" title="放大视频"></a><a class="icon-by-camear" title="关闭视频"></a>
+									<em><a class="icon-by-voice" title="切换语音"></a><i class="hidden hideorder">0</i></em>
+									<a class="icon-by-refresh switchTwo" title="切换视频"></a></span>
+								</li>
+-->							</ul>
+						</div>
+						<div class="c-mes-r fl" style="position: relative;">
+							<div class="count-down" style="position: absolute;left: 0;top: 0;background:#1DD388;color: #fff;line-height:30px;padding: 0 10px;width: 100%;display: none;">
+								<p><font style="padding: 0 4px 0 0;"></font>发言倒计时<span style="padding: 0 0 0 20px;"></span></p>
+							</div>
+							<div class="mes-chat">
+								<ul class="chat-list">
+									
+								</ul>
+							</div>
+							<div class="mes-func">
+								<div class="mes-func-t">
+									<select class="fl choose-obj">
+										<option>所有人</option>
+									</select>
+									<div class="func-some fl">											
+										<a href="javascript:;" class="facebtn"><img src="../images/chess/face.png"></a>
+										<a href="javascript:;" class="clearbtn"><img src="../images/chess/cash.png" style="width: 28px;"></a>
+									</div>
+									<!--<button class="fr clear-all">清屏</button>-->
+								</div>
+								<div class="mes-func-b">
+									<div class="statement fl">
+										<textarea class="mes-con" ></textarea>
+										<p class="state-login"><span>登录</span>发弹幕，与大家一起互动</p>
+									</div>
+									<button class="fl mes-send">发言</button>
+								</div>
+								<div id="faceBox"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="c-wrap-r fl">	
+					<div class="c-stushadow"><img src="../images/chess/video_03.png"></div>
+					<div id="qxPlayer2"></div>					
+					<div class="stu-shadow">
+						<ul class="c-video-list">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>			
+	</div>
+	<!-- 直播教程 -->
+	<div id="liveHelptextBox">
+		<p class="lh-tit">直播助手设置教程</p>
+		<a class="close-btn" href="javascript:void(0);"></a>
+		<div class="lh-con">
+			<ol>
+				<li>
+					<p>1、登录直播助手PC客户端<a id="downloadUrlLink" href="/download.html" target="_blank">未下载，点击下载客户端</a></p>
+					<div class="lh-pic"><img src="/images/default/room/lh_pic01.png"></div>
+				</li>
+				<li>
+					<p>2、点击“文件设备进行直播设置”</p>
+					<div class="lh-pic"><img src="/images/default/room/lh_pic02.png"></div>
+				</li>
+				<li>
+					<p>3、复制自动生成的URL地址，点击“串流”功能项，将复制的地址粘贴到URL地址栏</p>
+					<div class="lh-pic"><img src="/images/default/room/lh_pic03.png"><img src="/images/default/room/lh_pic04.png"></div>
+				</li>
+				<li>
+					<p>4、输入用户名和密码，点击“确定”按钮设置完成，开启直播</p>
+				</li>
+				<li>
+					<p>5、点击“来源”列表框里的“+”号，添加“视频捕获设备”在新弹出的弹出框点击“确定”按钮</p>
+					<div class="lh-pic"><img src="/images/default/room/lh_pic05.png"><img src="/images/default/room/lh_pic06.png"></div>
+				</li>
+				<li>
+					<p>6、在设备的下拉框里选择本地的摄像头，直到画面出现视频‘’再点击“激活”按钮，此时界面就可以显示本地的摄像头，点击”确定”按钮，完成设置。</p>
+					<div class="lh-pic"><img src="/images/default/room/lh_pic07.png"></div>
+				</li>
+				<li>
+					<p>7、在点击“开始串流”此时就正式开启直播，直播间的学生可以看到老师的现场教学，如果想要停止教学，直接点击“停止串流”按钮。</p>
+					<div class="lh-pic"><img src="/images/default/room/lh_pic08.png"><img src="/images/default/room/lh_pic09.png"></div>
+				</li>
+			</ol>
+		</div>
+	</div>
+	<!--消息通讯-->
+	<div style="position: absolute;"><div id="msgtx1"></div></div>
+	<script src="../js/sea.js"></script>
+	<script>
+		seajs.use("../js/page/chessindex.js");
+	</script>
+	</body>
+</html>

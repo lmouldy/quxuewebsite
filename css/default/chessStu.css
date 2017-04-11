@@ -1,0 +1,147 @@
+body{
+	min-width:500px;
+}
+.s-spelfunc{
+	overflow: hidden;
+	padding: 0 10px 0 0;
+}
+.share-box{
+	right: 110px;
+}
+.s-spelfunc a{
+	line-height: 30px;
+	color: #848484;
+	padding: 0 15px;
+	overflow: hidden;
+	display: inline-block;
+}
+.s-spelfunc a:hover{
+	color: red;
+}
+.s-spelfunc i{
+	font-size: 22px;
+	float: left;
+	padding: 4px 0 0 0;
+}
+.s-spelfunc a span{
+	padding: 0 5px;
+	float: left;
+}
+.s-conl{
+	height:100%;
+	width: 100%;
+	margin: 0 500px 0 0;
+	background: rgba(0,0,0,.8);
+}
+.s-con-video{
+	overflow: hidden;
+	height:100%;
+	width: 100%;
+	position: relative;
+}
+.s-con-video img{	
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin: auto;
+}
+.star-tech{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 89999;
+}
+.tech-btn{
+	display:block;
+	border: 1px solid #1DD388;
+	background: transparent;
+	border-radius:5px;
+	letter-spacing:1px;
+	font-size: 14px;
+	color:#1DD388;
+	width:120px;
+	margin:170px auto;
+	text-align:center;
+	line-height:32px;	
+}
+.c-closestu:hover{
+	background: #1DD388;
+	color: #fff;
+}
+.s-conr{
+	width:500px;
+	position: fixed;
+	right: 0;
+	top: 51px;
+}
+.s-video{
+	display: block;
+	height: 375px;
+	width: 100%;
+	position: relative;
+}
+.s-mask{
+	width: 100%;
+	background:rgba(0,0,0,.6);
+	height: 340px;
+}
+.s-masktip{
+	width: 80%;
+	margin:0 auto;
+	padding:40px 0 0 0;
+}
+.s-masktip p{
+	line-height: 30px;
+	color: #fff;
+	font-size: 16px;
+}
+.s-conr .statement{
+	width: 78%;
+}
+.s-conr .mes-send{
+	width:22%;
+}
+.s-conr .c-mes-l{
+	border-left: 1px solid #dbdbdb;
+}
+.s-conr .stu-fuc img{
+	width: 22px;
+	margin: 0 5px;	
+}
+.s-conr .func-some img{
+	
+	width: 20px;
+}
+.s-conr .c-mes-l{
+	width: 45%;
+}
+.s-conr .c-mes-r{
+	width: 55%;
+}
+.s-conr .c-mes-l h3{	
+	background: #f5f5f5;
+	text-align: center;
+	color: #333;
+	line-height: 35px;
+	font-weight: normal;
+	padding:0 10px;
+	border-bottom:2px solid #1DD388;
+}
+.s-conr .c-mes-l h3 span{
+	font-size: 12px;
+}
+.s-conr .c-mes-l .stu-list{
+	background: #fff;
+}
+.c-mes{
+	overflow: hidden;
+}
+#playerPromtBox .p-inner{
+	margin: 95px auto;
+}

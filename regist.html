@@ -1,0 +1,37 @@
+<form class="v-register">
+    <ul>
+        <li>
+            <label class="tag-name">手机号</label>
+            <input type="text" name="phoneNum" placeholder="请输入有效手机号" maxlength="11">
+            <em class="validator" data-type="phoneNum"><i></i>请输入正确的手机号码</em>
+        </li>
+        <li class="auth-code clearfix">
+            <label class="tag-name">手机验证码</label>
+            <input type="text" name="phoneCode" maxlength="6">
+            <a class="getAuthCode" href="javascript:void(0);">免费获取验证码</a>
+        </li>
+        <li>
+            <label class="tag-name">用户名</label>
+            <input type="text" name="regName" placeholder="请设置用户名" maxlength="10">
+            <em class="validator invalid"  id="repeatRegName" style="display: none;"><i></i>该用户名已经存在</em>
+        </li>
+        <li class="reg-pwd">
+            <p>
+                <label class="tag-name">设置密码</label>
+                <input type="password" name="pwd" placeholder="请设置密码" maxlength="15">
+                <em class="validator" data-type="min-length" data-min="6"><i></i>密码至少6个字符</em>
+            </p>
+            <div class="pwd-strength clearfix">
+                <span>密码强度：</span>
+                <b id="bWeek">弱</b><span id="pwdStrengthBar" class="strength-bar"><em class="pwd-week"></em><em class="pwd-mid"></em><em class="pwd-strong"></em></span><b id="bStrong">强</b>
+            </div>
+            <p class="reg-agreement">
+                <input type="checkbox" id="agreementCheckBtn" checked>
+                已阅读并同意<a href="registProtocal.html" target="_blank">《书法报视频使用协议》</a>
+            </p>
+        </li>
+        <li>
+            <a class="submit-btn submit-reg" href="javascript:void(0);"></a>
+        </li>
+    </ul>
+</form>

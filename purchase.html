@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>书法报视频－中国书画视频门户</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />  	
+	<meta property="qc:admins" content="34710146116015106375" />
+	<link rel="shortcut icon" href="/images/pm/default/quxue.ico" >
+	<link rel="stylesheet" href="css/default/common.css">
+	<link rel="stylesheet" href="css/default/purchase.css">
+</head>
+<body>
+<div id="header"></div>
+	<div class="container">
+		
+		<div class="content">
+			<div class="information">
+				<span class="course">某某课程</span>
+				<span class="money">金额：<b>0.00</b>金币</span>
+			</div>
+			<div class="usable">
+				<span><input type="checkbox" id="usableChk">可用余额：<b id="usableCoin">0.00</b>金币</span>
+				<span id="useableTips">您当前可用的余额不足，请进行<a target="_blank" href="/usercenter.html#pay">充值</a>，或选择其他方式进行付款</span>
+			</div>
+			<div class="main">
+				<span class="threepay"><input type="checkbox" id="threepay" checked="checked">第三方支付：</span>
+				<div class="threepay-box">
+					<input type="radio" name="pay" value="alipay" checked="checked"><span class="alipy"></span>
+					<input type="radio" name="pay" value="wechatPay"><span class="wechat"></span>
+					<input type="radio" name="pay" value="tenPay"><span class="tenpay"></span>
+					<input type="radio" name="pay" value="unionPay"><span class="bankcard"></span>
+					<span id="submitBtn" class="btn"></span>
+				</div>
+				<i class="icon-top-before"></i>
+				<i class="icon-top-after"></i>
+				<i class="icon-bottom-before"></i>
+				<i class="icon-bottom-after"></i>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</div>
+	
+	<script src="js/sea.js"></script>
+	<script>
+		seajs.use("page/purchase.js");
+	</script>
+</html>

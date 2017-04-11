@@ -1,0 +1,18 @@
+#
+# robots.txt for http://www.baiqu.tv/
+#
+# $Id: robots.txt,v 0.8 2016-08-05 12:00:00 ddavis Exp $
+#
+
+
+User-agent: *
+Disallow:/usercenter/service/
+Disallow:/usercenter/servlet/
+Disallow:/accounting/service/
+Disallow:/datahouse/service/
+Disallow:/idserver/service/
+Disallow:/room/service/
+Disallow:/shop/service/
+Disallow:/pws/service/
+Disallow:/integral/service/
+Disallow:/vms/service/

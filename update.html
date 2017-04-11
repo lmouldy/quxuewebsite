@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>书法报视频－中国书画视频门户</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="renderer" content="webkit">
+	<meta property="qc:admins" content="34710146116015106375" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<link rel="shortcut icon" href="/images/pm/default/quxue.ico" >  
+	<link rel="stylesheet" href="css/default/common.css">
+	<link rel="stylesheet" href="css/default/update.css">
+</head>
+<body>
+	<div id="header"></div>
+	<div class="home">
+		
+		<div id="container">
+			<div class="main">
+				<form>
+					<span class="space2">标 题:<input type="text" id="title"><em class="validator" data-type="required"><i></i>请输入标题</em></span>
+					<div class="update_img">
+						<span class="space4">上传图片: <br>(最多上传10张图片，单张图不超过5M，可一次上传多张)<a id="update" href="javascript:void(0);"></a></span>
+						<span class="small">选择电脑图片上传</span>
+					</div>
+					<div class="imgList"></div>
+					<span class="space2">摘 要:<input type="text" id="summary"><em class="validator" data-type="required"><i></i>请输入摘要</em></span>
+					<span class="space4">作者姓名:<input type="text" id="writer"><em class="validator" data-type="required"><i></i>请输入作者姓名</em></span>
+					<span class="space4">联系电话:<input type="text" id="telPhone"><em class="validator" data-type="phoneNum"><i></i>请输入正确的手机号码</em></span>
+					<div class="btns">
+						<a href="javascript:void(0);" id="btn1">确定</a>
+						<a href="javascript:void(0);" id="btn2">重置</a>
+					</div>
+				</form>
+			</div>
+			<div class="aside">
+				<h3>投稿须知</h3>
+				<p>
+					为保障投稿文章快速收录，请您注意以下事项：<br>
+					1、投稿内容，最好原创；<br>
+					2、摘要简洁明了介绍作品信息。<br>
+					注：介绍类、广告类、小说类、已投稿或投稿过于简单者，请不要投稿
+				</p>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</div>
+	<script src="js/sea.js"></script>
+	<script>
+		seajs.use("./js/page/update.js");
+	</script>
+</body>
+</html>

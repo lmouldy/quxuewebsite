@@ -1,0 +1,196 @@
+
+.container{
+	width: 1200px;
+	height: auto;	
+	margin: 0 auto 30px;	
+	font-family: 'Microsoft YaHei';
+}
+
+input[type=checkbox]{
+	width:20px;
+	height:20px;
+}
+
+
+input[type=radio]{
+	width:20px;
+	height:20px;
+}
+
+.content{
+	padding: 0 10px;
+}
+
+.information{
+	width: 100%;
+	height: 60px;
+	line-height: 50px;
+	font-size: 20px;
+	padding: 0 30px;
+	margin: 20px 0;	
+	border: 2px solid #626262;
+	background: url(../../images/default/usercenter/u_main_bg_01.png);
+}
+
+.course{
+	color: #a01c27;
+}
+.money{
+	float: right;
+}
+
+.usable{
+	width: 100%;
+	height: 80px;
+	padding: 10px 0px 10px 80px;
+	background: #fff;
+	border: 3px solid #626262;
+}
+
+.usable span{
+	display: block;	
+}
+#useableTips{
+	display:none;
+}
+
+.usable input,
+.threepay input{
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.usable span:first-child,
+.threepay{
+	font-size: 18px;
+	font-weight: 700;
+	color: #000;
+}
+
+.usable span:last-child{
+	margin: 16px 0 0 30px;
+}
+
+.main{
+	position: relative;
+	width: 100%;
+	height: 400px;	
+	padding: 40px 70px;
+	border: 3px solid #626262;
+	border-top: 0;	
+}
+
+.main span{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.main .threepay{
+	display: block;
+	margin-bottom: 80px;
+}
+
+.main .threepay-box{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.main .alipy{
+	background-image: url(../../images/default/usercenter/pay_menu_on.png);
+	background-position: 0px -40px;
+	width: 116px;
+	height: 35px;
+
+}
+
+.main .wechat{
+	background-image: url(../../images/default/usercenter/pay_menu_on.png);
+	background-position: 0px -380px;
+	width: 116px;
+	height: 35px;
+	
+}
+
+.main .tenpay{
+	background-image: url(../../images/default/usercenter/pay_menu_on.png);
+	background-position: 0px -295px;
+	width: 116px;
+	height: 35px;
+	
+}
+
+.main .bankcard{
+	background-image: url(../../images/default/usercenter/pay_menu_on.png);
+	background-position: 0px 0px;
+	width: 116px;
+	height: 35px;
+	
+}
+
+.main .btn{
+	margin-top: 90px;
+    background: url(../../images/default/usercenter/usercenter_btns.png) no-repeat -431px -175px;
+    width: 196px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.main .btn:hover{
+	background-position: -431px -574px;
+}
+
+.main .icon-top-before{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -3px;
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 0px 0px;
+	width: 77px;
+	height: 73px;
+}
+
+.main .icon-top-after{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -3px;
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 77px 0px ;
+	width: 77px;
+	height: 73px;
+}
+
+.main .icon-bottom-before{
+	display: block;
+	position: absolute;
+	left: -3px;
+	bottom: 0;
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 0px -73px;
+	width: 77px;
+	height: 73px;
+}
+
+.main .icon-bottom-after{
+	display: block;
+	position: absolute;
+	right: -3px;
+	bottom: 0;
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 77px -73px;
+	width: 77px;
+	height: 73px;
+}
+
+.wx-pay {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 18px;
+}

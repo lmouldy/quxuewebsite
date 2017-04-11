@@ -1,0 +1,652 @@
+body{
+	background:#f5f5f5;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	color: #333;
+	padding: 0;
+	overflow: hidden;
+}
+.red{
+	color: red!important;
+}
+button:focus{
+	outline: none;
+}
+.stu-bg{
+	background: #ddd;
+}
+.hidden{
+	display: none!important;
+}
+.show{
+	display: block!important;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.c-header{
+	background: #fff;
+	overflow: hidden;
+	padding: 16px 0 5px 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 100%;
+	height: 61px;
+}
+.c-title{
+	position:absolute;
+	text-align:center;
+	color: #1DD388;
+	font-size: 18px;
+	font-weight: bold;
+	line-height:30px;
+}
+.c-header li{
+	float: left;
+	padding: 0 10px;
+	line-height: 30px;
+	font-size: 14px;
+}
+.c-header li:last-child{
+	color: #1DD388;
+	font-size: 18px;
+	font-weight: bold;
+}
+.c-header li a{
+	display: inline-block;
+	padding: 0 10px;
+	border-radius:5px;
+	color: #808080;
+}
+.c-header li a:hover{
+	background: #1dd388;
+	color: #fff;
+}
+.c-header li a.active{
+	background: #1dd388;
+	color: #fff;
+}
+.change-screen{
+	padding: 0 40px 0 0;
+}
+.change-screen span{
+	margin:7px 10px 0 10px;	
+	width: 20px;
+	display:inline-block;
+	height: 20px;
+	overflow: hidden;
+}
+.change-screen span img{	
+	width:100%;
+	float: left;
+	cursor: pointer;
+}
+.share{
+	padding: 2px 0 0 0;
+}
+.share span{
+	font-size: 22px;
+	color: #1DD388;
+	margin:0 47px 0 0;
+	cursor: pointer;
+	line-height: 30px;
+}
+.share-box{
+	display: none;
+	position: absolute;
+	background: #fff;
+	z-index: 999;
+	border-top:2px solid #1DD388;
+	line-height: 30px;
+	padding: 0 30px;
+	box-shadow: 2px 2px 4px #ccc;
+	right:59px;
+	top:50px;
+}
+.share-style{
+	padding: 20px 0;
+}
+.share-style a{
+	float: left;
+	display: block;
+	margin: 15px 15px 15px 0;
+	width: 44px;
+	height: 44px;
+	background: url(../../images/default/share_btn.png) no-repeat;
+}
+.share-style .share-wb{
+	background-position: 0 0;
+}
+.share-style .share-qq{
+	background-position:-51px 0;
+}
+.share-style .share-zone{
+	background-position: -100px 0;
+}
+.share-wx{
+	padding: 15px 10px;
+	text-align: center;
+}
+.share-wx img{
+	display: block;
+	width: 90px;
+	height: 90px;
+	border: 3px solid #ececec;
+	margin: 0 auto;
+}
+.arrow-top{
+	position: absolute;
+	top: -18px;
+	left: 50%;
+	width:0;
+	height: 0;
+	border-top:8px solid transparent;
+	border-bottom: 8px solid #1DD388;
+	border-left: 6px solid transparent;
+	border-right:6px solid transparent;	
+}
+.c-closestu{
+	border: 1px solid #1DD388;
+	background: #fff;
+	border-radius:5px;
+	letter-spacing:1px;
+	font-size: 14px;
+	color: #1DD388;
+	padding: 0 16px;
+	line-height: 24px;
+	margin:3px 20px 0 0;
+}
+.c-closestu:focus{
+	outline: none;
+}
+.c-closestu:hover{
+	background: #1DD388;
+	color: #fff;
+}
+.c-wrap{
+	overflow: hidden;
+}
+.c-wrap-l{
+	width: 42%;
+}
+.c-video{
+	overflow: hidden;
+}
+.c-video .autoV{
+	width: 100%;
+	height: 283px;
+	display: block;
+	position: relative;
+}
+#switchStu{
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	z-index: 99999;
+	cursor: pointer;
+}
+#switchStu p{
+	font-size: 38px;
+	color: #1DD388;
+}
+.c-mes-l{
+	width: 40%;
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.stu-head{
+	background: #efefef;
+	border-bottom: 2px solid #ddd;
+	height: 38px;
+}
+.stu-head h3{
+	font-weight: normal;
+	font-size: 16px;
+	color: #333;
+	padding: 0 10px;
+	line-height: 36px;
+	display: inline-block;
+	border-bottom: 2px solid #1DD388;
+}
+.stu-list{
+	height: 200px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.stu-list li{
+	font-size: 14px;
+	border-bottom: 1px solid #dbdbdb;
+	line-height: 39px;
+	overflow: hidden;
+	font-style: normal!important;
+}
+.stu-list li:last-of-type{
+	border:none
+}
+.stu-list li:hover{
+	background: #e6e6e6;
+}
+.stu-list li em{
+	display: inline-block;
+	position: relative;
+	font-style: normal;	
+}
+.stu-list li em i{
+	font-style: normal;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	text-align:center;
+	background: coral;
+	border-radius:50%;
+	color: #fff;
+	font-size: 10px;
+	position: absolute;
+	right: -6px;
+	top:2px;
+	cursor: pointer;
+}
+.stu-ava img{
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+.stu-fuc{
+	float: right;
+	padding: 0 6px 0 0;
+}
+
+.stu-fuc a{
+	font-size: 26px;
+	color: #1DD388;
+	line-height:39px;
+	display: inline-block;
+	cursor: pointer;
+}
+.c-mes-r{
+	width: 60%;
+	background: #fff;
+}
+.mes-chat{
+	overflow:hidden;
+	height: 160px;
+}
+.chat-list{
+	padding:5px 0px 5px 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 100%;
+}
+.chat-list li{
+	font-size: 13px;
+	overflow: hidden;
+	line-height:20px;
+}
+.chat-list li span{
+	float: left;
+	width:12%;
+	font-size: 12px;
+}
+.chat-con img{
+	width:18px;
+	margin:0 2px;	
+	vertical-align: middle;
+}
+.chat-list .chat-con{
+	float: left;
+	width: 86%;
+	padding: 0 1%;
+}
+.chat-con font{
+	padding: 0 5px 0 5px;
+	color: #1DD388;	
+}
+.chat-con em{
+	font-style: normal;	
+	word-break: break-all;
+}
+.mes-func{
+	position: relative;
+}
+.mes-func-t{
+	overflow: hidden;
+	background: #efefef;
+	height: 32px;
+	line-height: 32px;
+}
+.choose-obj{
+	width: 80px;
+	height:22px;
+	margin:5px 5px 0px 5px;
+	font-size: 14px;
+}
+.func-some{
+	padding: 0 0 0 10px;
+	
+}
+.func-some img{
+	vertical-align: middle;
+	width:20px;
+	margin: 0 4px;
+	cursor: pointer;
+}
+#faceBox{
+	position: absolute;
+	display: block;
+	bottom:74px;
+}
+.clear-all{
+	color: #fff;
+	background: #1DD388;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	height:22px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin:5px 5px 0 5px;
+}
+.mes-func-b{
+	height: 40px;
+	overflow: hidden;
+	margin: 2px 2px 2px 4px;
+	border: 1px solid #1DD388;
+	border-radius: 5px;
+}
+.statement{
+	overflow: hidden;
+	width: 80%;
+	position: relative;
+}
+.mes-con{
+	width: 100%;
+	border:none;
+	height:39px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #aaa;
+	outline: none;
+	padding: 5px;
+}
+.state-login{
+	position: absolute;
+	left:10px;
+	top: 0;
+	line-height: 20px;
+	color: #929292;
+}
+.state-login span{
+	color: #1DD388;
+	padding: 0 4px 0 0;	
+	cursor: pointer;
+}
+.mes-con:focus,.mes-send{
+	outline: none;
+}
+.mes-send{
+	width: 20%;
+	background: #929292;
+	color: #fff;
+	font-size: 15px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	border: none;
+	line-height: 38px;
+	outline: none;
+}
+.c-wrap-r{
+	width: 58%;
+	background: #fff;
+	overflow: hidden;
+}
+.c-stushadow{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.c-stushadow img{
+	width: 100%;
+	height: 100%;
+}
+.c-video-list{
+	width: 100%;
+	overflow: hidden;
+}
+.c-video-list li{
+	float: left;
+	width: 33.3%;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	height: 130px;
+	
+}
+.stu-fuc .gray{
+	color: lightgray;
+}
+.unonline{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: rgba(0,0,0,.2);
+	margin: 2px;
+}
+.unonline h2{	
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+.apply-shadow{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	background: rgba(0,0,0,.4);
+	text-align: center;
+	margin: 2px;
+}
+.apply-btn{
+	display: inline-block;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	height: 32px;
+	line-height: 30px;
+	padding: 0 10px;
+	margin:50px 0 0 0;
+	letter-spacing: 1px;
+}
+.apply-btn:focus{
+	outline: none;
+}
+.apply-btn:hover{
+	border-color: #1DD388;
+	color: #1DD388;
+}
+.c-video-list li a{
+	display:block;
+	width:100%;
+	height: 100%;
+}
+.c-video-list li a img,.bqPlayer{
+	width: 100%;
+	height:100%;
+	display: block;
+	cursor: pointer;
+	margin: 2px;
+}
+.c-person-intro{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+.c-person-intro font{
+	float: left;
+	color: #1DD388;
+	font-size: 16px;
+	padding: 0 10px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.c-person-intro span{
+	float: right;
+	line-height: 30px;
+}
+.c-person-intro span img{
+	vertical-align: middle;
+	width: 20px;
+	margin: 0 10px;
+	cursor: pointer;
+}
+#playerPromtBox{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:101;
+}
+
+#playerPromtBox .p-inner{
+	width:340px;
+	height:196px;
+	margin:121px auto;
+	background-color:#f9f9f8;
+}
+
+#playerPromtBox .p-inner .p-title{
+	height:26px;
+	line-height:26px;
+	background-color:#626262;
+	color:#fff;
+	font-size:16px;
+	padding-left:5px;
+}
+
+#playerPromtBox .p-inner .p-con{
+	color:#171717;
+	padding:10px 5px;
+}
+
+#playerPromtBox .p-inner .p-con-url{
+	overflow:hidden;
+}
+
+#playerPromtBox .p-inner .p-con-url label,
+#playerPromtBox .p-inner .p-con-url span,
+#playerPromtBox .p-inner .p-con-url a{
+	display:block;
+	float:left;
+	height:28px;
+	line-height:28px;
+}
+
+#playerPromtBox .p-inner .p-con-url span{
+	width:202px;
+	border:1px solid #626262;
+}
+
+#playerPromtBox .p-inner .p-con-url a{
+	width:48px;
+	height:28px;
+	margin-left:8px;
+	background:url(../../images/default/room/player_promt_btn.png) no-repeat 0 0;
+}
+
+#playerPromtBox .p-inner .show-helptext-link{
+	display:block;
+	font-size:16px;
+	color:#646363;
+	text-align:center;
+	margin:40px auto 20px;
+}
+
+#playerPromtBox .p-inner .show-helptext-link:hover{
+	text-decoration:underline;
+}
+
+#playerPromtBox .close-btn{
+	float:right;
+	display:block;
+	width:81px;
+	height:28px;
+	margin-right:10px;
+	background:url(../../images/default/room/player_promt_btn.png) no-repeat 0 -32px;
+}
+/******** 直播助手使用教程 CSS*************/
+#liveHelptextBox{
+    display:none;
+    position:absolute;
+    top:5%;
+    left:20%;
+    width:800px;
+    background-color:#f5f5f5;
+    border:3px solid #b4b2b3;
+    border-radius:3px;
+    z-index:109;
+}
+
+#liveHelptextBox .close-btn{
+    position:absolute;
+    display:block;
+    right:10px;
+    top:10px;
+    width:44px;
+    height:44px;
+    background:url(../../images/default/room/player_promt_btn.png) no-repeat -88px 0;
+}
+
+#liveHelptextBox .lh-tit{
+    height:70px;
+    background-color:#e6e6e6;
+    text-align:center;
+    color:#515151;
+    font:24px/70px microsoft yahei;
+}
+
+#liveHelptextBox .lh-con{
+    padding:20px 35px;
+    color:#363636;
+    font-family:simSun;
+    height: 600px;
+    overflow: auto;
+}
+
+#liveHelptextBox .lh-con li{
+    overflow:hidden;
+}
+
+#liveHelptextBox .lh-con li a{
+    font-size:14px;
+    color:#ff7700;
+    margin-left:15px;
+}
+
+#liveHelptextBox .lh-con li a:hover{
+    text-decoration:underline;
+}
+
+#liveHelptextBox .lh-con li .lh-pic{
+    display:block;
+    margin:10px 0;
+
+}
+
+
+
+
+

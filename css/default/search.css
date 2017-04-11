@@ -1,0 +1,90 @@
+
+.home{
+	width: 1200px;
+	height: auto;
+	margin: 10px auto 30px;
+}
+
+.content{
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 400px;
+	padding: 20px 90px;
+	border:5px solid #626262;
+}
+
+.content .title{
+	display: block;
+	margin-left: 18px;
+	margin-bottom: 20px;
+	font-size:18px;
+}
+
+.content .icon-top-before{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -3px;
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 0px 0px;
+	width: 77px;
+	height: 73px;
+}
+
+.content .icon-top-after{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -3px;
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 77px 0px ;
+	width: 77px;
+	height: 73px;
+}
+
+.content .icon-bottom-before{
+	display: block;
+	position: absolute;
+	left: -3px;
+	bottom: 0;
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 0px -73px;
+	width: 77px;
+	height: 73px;
+}
+
+.content .icon-bottom-after{
+	display: block;
+	position: absolute;
+	right: -3px;
+	bottom: 0;
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 77px -73px;
+	width: 77px;
+	height: 73px;
+}
+
+.live-box{
+	position: relative;
+	display: inline-block;
+	width: 155px;
+	margin: 0 20px 30px;
+}
+
+.live-box img{
+	width: 155px;
+	height: 155px;
+	border: 2px solid #626262;
+}
+
+.live-box span{
+	display: block;
+	width: 100%;
+	color: #a01d23;
+	font-size: 16px;
+	font-weight: 400;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

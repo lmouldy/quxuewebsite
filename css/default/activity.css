@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+body{
+	background:url(../../images/default/home/home-bg.jpg) no-repeat;
+}
+
+#mainCon{
+	font-family:'宋体';
+	font-size:14pt;
+	overflow:hidden;
+	padding:30px 50px;
+	background-color:#fff;
+	line-height:40px;
+	margin-bottom:20px;
+	box-shadow: 0px 2px 2px #ccc;
+}
+
+.main-title{
+	text-align:center;
+	font-weight:bold;
+	line-height:50px;
+}
+
+#mainCon dl>dt,
+#mainCon dl>dd{
+	text-indent:28pt;
+}
+
+#mainCon .con-desc{
+	padding:20px;
+	text-align:right;
+}
+
+#mainCon .con-desc strong{
+	display:block;
+}
+
+.concat-list ol{
+	font-family:microsoft yahei;
+	font-size:14px;
+}
+
+#mainCon .desc-pic{
+	text-align:center;
+}
+
+.dd-textBold{
+	font-weight: bold;
+    line-height: 50px;
+}
+
+
+
+.special{
+	color:#C04F4C;
+}

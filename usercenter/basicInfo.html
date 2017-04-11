@@ -1,0 +1,75 @@
+<h3 class="u-tit-h3 u-tit-16">基本信息</h3>
+<div class="u-con basic-info">
+    <div class="u-tab">
+        <a data-rel="bi-info" class="active" href="javascript:void(0);">基本信息</a>
+        <a data-rel="bi-avatar" href="javascript:void(0);">头像照片</a>
+        <a data-rel="bi-pwd" href="javascript:void(0);">修改密码</a>
+    </div>
+    <div class="bi-detail">
+        <ul class="bi-info">
+            <li>
+                <span>昵称：</span>
+                <input type="text" name="userNick" maxlength="10">
+            </li>
+            <li>
+                <span>邮箱：</span>
+                <input type="text" name="userEmail">
+                <em class="validator">请输入正确的邮箱地址！</em>
+            </li>
+            <li>
+                <span>手机：</span>
+                <input type="text" name="userPhone" readonly="readonly" maxlength="11">
+            </li>
+            <li>
+                <span>性别：</span>
+                <input checked type="radio" name="sex" id="sex1" value="男"><label for="sex1">男</label>
+                <input type="radio" name="sex" id="sex2" value="女"><label for="sex2">女</label>
+                <input type="radio" name="sex" id="sex3" value="保密"><label for="sex3">保密</label>
+            </li>
+            <!-- <li>
+                <span>现居地：</span>
+                <label id="city">
+                    <span class="sel-span"><select name="prov" class="prov"></select></span>
+                    <span class="sel-span"><select name="city" class="city"></select></span>
+                    <span class="sel-span" style="display:none;"><select name="area" class="area" ></select></span>
+                </label>
+            </li> -->
+            <li>
+            	<a class="bi-submit-btn bi-info-submit" href="javascript:void(0);"></a>
+            </li>
+        </ul>
+        <div class="bi-avatar" style="display:none;">
+            <div class="bi-avatar-tab">
+                <input checked type="radio" name="avaType" data-rel="system-ava-list" id="systemAva"><label for="systemAva">推荐头像</label>
+                <input type="radio" name="avaType" data-rel="diy-ava-box" id="diyAva"><label for="diyAva">上传图片</label>
+            </div>
+            <div class="bi-avatar-con">
+	            <div class="system-ava-list">
+	                <div class="fl ava-list"></div>
+	                <div class="fl ava-preview">
+	                    <p>头像预览</p>
+	                    <div class="ava-show"><img src="/images/pm/avatar/tx001.jpg" alt="tx001"></div>
+	                    <a class="bi-submit-btn bi-avatar-submit" href="javascript:void(0);"></a>
+	                </div>
+	            </div>
+	            <div class="diy-ava-box">
+	                <div class=" upload-ava">
+	                    <a id="uploadPic" class="upload-btn"></a>
+	                    <p>请确保文件大小不超过200k，格式为jpg、png的图片。</p>
+	                    <div class="pic-show"><img src="/images/default/usercenter/upload_default_02.png"></div>
+	                    
+	                </div>
+	                <a class="bi-submit-btn bi-avatar-submit" href="javascript:void(0);"></a>
+	            </div>
+            </div>
+            
+
+        </div>
+        <dl class="bi-pwd" style="display:none;">
+        	<dd><span>当前密码：</span><input type="password" name="nowPwd" maxlength="15"></dd>
+            <dd><span>新密码：</span><input type="password" name="newPwd" maxlength="15"></dd>
+            <dd><span>确认密码：</span><input type="password" name="newPwd2" maxlength="15"></dd>
+            <dd><a class="bi-submit-btn bi-pwd-submit" href="javascript:void(0);"></a></dd>
+        </dl>
+    </div>
+</div>

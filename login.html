@@ -1,0 +1,23 @@
+<form class="v-login">
+    <ul>
+        <li>
+            <label class="tag-name">用户名</label>
+            <input type="text" name="userName" placeholder="请输入您的用户名或手机号" maxlength="11">
+            <em class="validator" data-type="required"><i></i>请输入手机号/昵称</em>
+        </li>
+        <li>
+            <p>
+                <label class="tag-name">密码</label>
+                <input type="password" name="password" placeholder="请输入您的密码" maxlength="15">
+                <em class="validator" data-type="required"><i></i>请输入密码</em>
+            </p>
+            <p class="login-forget">
+               <!--  <span><input type="checkbox" id="autoLogin"><label for="autoLogin">下次自动登录</label></span>     -->
+                <a class="forget-link" href="../forget.html">忘记密码</a>
+            </p>
+        </li>
+        <li class="clear">
+            <a class="submit-btn submit-login" href="javascript:void(0);"></a>
+        </li>
+    </ul>
+</form>

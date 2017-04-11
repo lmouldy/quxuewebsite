@@ -1,0 +1,69 @@
+<h3 class="u-tit-h3 u-tit-13">我的提现</h3>
+<div class="u-con my-exchange">
+    <div class="exchange-main" >
+        <div class="exchange-handle clearfix">
+            <ul class="fl">
+                <li><label>课程收益</label><p class="js-LessonIncome"></p></li>
+                <li><label>礼物收益</label><p class="js-GiftIncome"></p></li>
+                <li><a class="apply-exchange-btn" href="javascript:void(0);"></a></li>
+            </ul>
+            <dl class="fl">
+                <dt>提现说明：</dt>
+                <dd>1、提现最低500元；</dd>
+                <dd>2、提现必须是整数部；</dd>
+            </dl>
+        </div>
+        <div class="exchange-list">
+            <p class="exchange-list-tit">提现记录</p>
+            <table>
+                <thead>
+                <tr>
+                    <th>日期</th>
+                    <th>提现银行</th>
+                    <th>提现帐号</th>
+                    <th>提现金额</th>
+                    <th>手机号</th>
+                    <th>提现状态</th>
+                </tr>
+                </thead>
+                <tbody id="ExchangeRmb">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="exchange-form" style="display:none;">
+        <ul>
+            <li class="desc">
+                <div class="fl">
+                    <label>课程收益</label><p class="js-LessonIncome"></p>
+                </div>
+                <div class="fl"><label>礼物收益</label><p class="js-GiftIncome"></p></div>
+            </li>
+            <li>
+                <p>提现金额</p>
+                <input type="text" id="coins"><span>(可兑换<b id="toExchangeNum">0</b>元)</span>
+            </li>
+            <li>
+                <p>银行名称</p>
+                <input type="text" id="bankName">
+            </li>
+            <li>
+                <p>银行卡号</p>
+                <input type="text" id="bankCard">
+            </li>
+            <li>
+                <p>手机号</p>
+                <input type="text" id="phoneId">
+            </li>
+            <li class="phone-code">
+                <p>验证码</p>
+                <p><input type="text" id="phoneCode"><a class="get-code-btn">获取验证码</a></p>
+            </li>
+            <li class="btns">
+                <a class="submit-exchange" href="javascript:void(0);"></a>
+                <a class="cancel-exchange" href="javascript:void(0);"></a>
+            </li>
+        </ul>
+    </div>
+</div>

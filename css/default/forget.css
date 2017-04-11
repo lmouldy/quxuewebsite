@@ -1,0 +1,198 @@
+body{
+	background:url(../../images/default/home/bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+.home{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto 30px;	
+	font-family: 'Microsoft YaHei';
+}
+
+.content{
+	position: relative;
+	width: 100%;
+	height: 438px;
+	padding: 20px 90px;
+	border:5px solid #626262;
+}
+
+.title{
+	margin: 20px 0;
+	text-align: center;
+}
+
+.title_1,
+.title_2,
+.title_3{
+	position: relative;
+	display: inline-block;
+	background-image: url(../../images/default/forget/sprite.png);
+	background-position: 0px -121px;
+	width: 166px;
+	height: 60px;
+	margin-right: 120px;
+	line-height: 60px;
+	font-size: 24px;
+	color: #111;
+	text-align: center;
+}
+
+.title_3{
+	margin-right: 0;
+}
+
+.title_active{
+	background-image: url(../../images/default/forget/sprite.png);
+	background-position: 0px -61px;
+	width: 166px;
+	height: 60px;
+}
+
+.title_1:after,
+.title_2:after{
+	position: absolute;
+	top: 0;
+	right: -80px;
+	display: inline-block;
+	content: url(../../images/default/forget/next.png);
+}
+
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 520px;
+	height: 258px;
+	margin-left: -260px;
+	margin-top: -129px;
+	font-size: 18px;
+	padding: 10px;
+	text-align: center;
+}
+
+.main>span{
+	display: block;
+	margin-bottom: 20px;
+}
+
+#phoneId{
+	width: 380px;
+	height: 38px;
+	margin-left: 30px;
+	padding: 4px;
+}
+
+#phoneCode,
+#nickname,
+#password,
+#password_2{
+	width: 238px;
+	height: 38px;
+	margin-left: 30px;
+	padding: 4px;
+}
+
+#phoneCode + span{
+	display: inline-block;
+	width: 134px;
+	height: 38px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 38px;
+	background: #e6e6e6;
+	cursor: pointer;
+}
+
+.main .next{
+	background-image: url(../../images/default/forget/sprite.png);
+	background-position: 0px 0px;
+	width: 196px;
+	height: 61px;
+	margin: 50px auto 0;
+	font-size: 25px;
+	color: #fff;
+	line-height: 61px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.box_2,
+.box_3{
+	display: none;
+}
+
+.box_2 input{
+	width: 320px !important;
+}
+
+#nickname,
+#password{
+	margin-left: 43px;
+}
+
+
+.main .ok{
+	display: inline-block;
+	background-image: url(../../images/default/forget/sprite.png);
+	background-position: -196px 0px;
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+.main .msg{
+	display: inline-block;
+	color: #ff8e2a;
+	font-size:30px;
+}
+
+.content .icon-top-before{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -3px;
+	content: '';
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 0px 0px;
+	width: 77px;
+	height: 73px;
+}
+
+.content .icon-top-after{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: -3px;
+	content: '';
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 77px 0px ;
+	width: 77px;
+	height: 73px;
+}
+
+.content .icon-bottom-before{
+	display: block;
+	position: absolute;
+	left: -3px;
+	bottom: 0;
+	content: '';
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 0px -73px;
+	width: 77px;
+	height: 73px;
+}
+
+.content .icon-bottom-after{
+	display: block;
+	position: absolute;
+	right: -3px;
+	bottom: 0;
+	content: '';
+	background-image: url(../../images/default/corner_bg_icon.png);
+	background-position: 77px -73px;
+	width: 77px;
+	height: 73px;
+}

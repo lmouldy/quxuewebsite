@@ -1,0 +1,132 @@
+
+.home{
+	width: 1200px;
+	height: auto;
+	margin: 10px auto 30px;
+}
+
+.navbar{
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	margin-bottom:8px;
+}
+
+.navbar-title{
+	float: left;
+	width: 56px;
+	height: 36px;
+	color:#808080;
+}
+
+.navbar-list{
+	color:#808080;
+	overflow: hidden;
+}
+
+.navbar li{
+	float: left;
+	padding:0 10px;
+	list-style: none;
+	cursor: pointer;
+}
+
+.navbar li:hover, .navbar-active{
+	color:#a01d23;
+}
+
+
+.home dl{
+	margin: 20px 0;
+	min-height: 228px;
+}
+
+.home dt{
+	margin-bottom: 10px;
+}
+
+.live-box{
+	position: relative;
+	display: inline-block;
+	width: 194px;
+	margin: 0 7px 10px 0;
+}
+
+.live-box a>img{
+	width: 194px;
+	height: 109px;
+}
+
+.onlive-box,
+.study-box{
+	width: 1206px;
+}
+
+.onlive-box-title,
+.study-box-title{
+	position:relative;
+	padding-left:32px;
+	width: 100%;
+	margin-bottom:10px;
+}
+
+.onlive-box-title:before,
+.study-box-title:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	content: url(../../images/default/home/icon.png);
+}
+
+
+.onlive{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+	height: 28px;
+	background: #ff7e7e;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Microsoft YaHei';
+	text-align: center;
+	border:1px solid #ff3333;
+}
+
+.study-box .live-box span{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.onlive-box .live-box .nickname,
+.study-box .live-box .nickname{
+	display: block;
+	width: 100%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #000;
+}
+
+.onlive-box .nickname{
+	margin-top: 10px;
+}
+
+.study-box .live-box .nickname + span{
+	color: #f00;
+}
+
+.live-box .nickname:hover{
+	color: #f70;
+}
+
+.live-box img:hover{
+	opacity: 0.8;
+	filter:Alpha(opacity=80);
+}

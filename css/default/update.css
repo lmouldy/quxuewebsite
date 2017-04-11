@@ -1,0 +1,116 @@
+
+.home{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto 30px;
+}
+
+#container{
+	position: relative;
+}
+
+.main{
+	width: 600px;
+	margin-left: 200px;
+}
+
+.main .validator{
+	display:none;
+	/*position:absolute;
+	top:0;
+	right:0;*/
+	margin-left:10px;
+	line-height: 24px;
+	font-family:sinSum;
+	text-align: left;
+	color:#ff0000;
+	font-style:normal;
+}
+
+.main span{
+	display: block;
+	margin:20px 10px;
+}
+
+.main input{
+	width: 240px;
+}
+
+.main .update_img img{
+	margin-left: 22px;
+	vertical-align: top;
+}
+
+.main .update_img #update{
+	margin-left: 90px;
+}
+
+.update_img .small{
+	margin: -20px 0 10px 84px;
+	color: #666;
+	font-size: 14px;
+}
+
+.imgList{
+	display: none;
+	width:500px;
+    border: 1px solid #fff;
+}
+
+.imgList > div{
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	margin: 10px;
+}
+
+.imgList img{
+	width: 100%;
+	height: 100%;
+}
+
+.imgList > div a{
+    position: absolute;
+    top: -10px;
+    right: -6px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    background: #942025;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.space2 input{
+	margin-left: 45px;
+}
+
+.space4 input{
+	margin-left: 20px;
+}
+
+.btns a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	margin: 20px 10px;
+	line-height: 30px;
+	text-align: center;
+	background: #942025;
+	color: #fff;
+	border-radius: 6px;
+}
+
+.aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+}
+
+.aside p{
+	line-height: 24px;
+}

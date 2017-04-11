@@ -1,0 +1,99 @@
+@CHARSET "UTF-8";
+.container{
+	background:url(/images/default/down/download_bg0.jpg) no-repeat center top;
+	background-size:cover;
+}
+.out-mod1{
+	width:1200px;
+	margin:0 auto;
+}
+
+.inner1{
+	position:relative;
+	width:1200px;
+	height:700px;
+	margin:0 auto;
+	background:url(/images/default/down/download_bg02.png) no-repeat center top;
+}
+
+#qrcode{
+	position: absolute;
+	top: 254px;
+	right: 360px;
+	width: 149px;
+	height: 149px;
+	background: #fff;
+	padding:2px;
+}
+
+
+#qrcode span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin: -20px 0 0 -20px;
+	background: #fff;
+}
+
+#qrcode span img{
+	width: 100%;
+	height: 100%;
+}
+
+#qrcodeIphone{
+	position: absolute;
+	top: 254px;
+	right: 78px;
+	width: 149px;
+	height: 149px;
+	background: #fff;
+	padding:2px;
+}
+
+
+#qrcodeIphone span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin: -20px 0 0 -20px;
+	background: #fff;
+}
+
+#qrcodeIphone span img{
+	width: 100%;
+	height: 100%;
+}
+
+#download-btn {
+    position: absolute;
+    top: 500px;
+    right: 345px;
+    padding: 10px 35px;
+    color: #f70;
+    border: 2px solid #f70;
+    cursor: pointer;
+}
+
+#download-btn:hover{
+	color: #fff;
+	background: #f70;
+}
+
+#download-btn-ios {
+    position: absolute;
+    top: 500px;
+    right: 90px;
+    padding: 10px 35px;
+    color: #f70;
+    border: 2px solid #f70;
+    cursor: pointer;
+}
+
+#download-btn-ios:hover{
+	color: #fff;
+	background: #f70;
+}

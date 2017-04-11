@@ -1,0 +1,50 @@
+<h3 class="u-tit-h3 u-tit-01">房间设置</h3>
+<div class="u-con room-set">
+    <div class="rs-main">
+        <div class="fl rs-poster">
+            <img src="images/default/default_head.jpg">
+            <p>
+                <a class="fl rs-edit-btn" href="javascript:void(0);"></a>
+                <a class="fr rs-room-link" target="_blank"></a>
+            </p>
+        </div>
+        <div class="fl rs-info">
+            <p><span class="rs-id">房间ID：<label></label></span><span class="rs-type">房间类型：<label>书法</label></span></p>
+            <p class="rs-name">房间名称：<label></label></p>
+            <p><span class="rs-size">房间大小：<label>5000人</label></span><span class="rs-status">房间状态：<label>正常使用</label></span></p>
+        </div>
+    </div>
+    <div class="u-pop-layer rs-pop-layer">
+		<ul>
+			<li>
+				<p>房间号</p>
+				<p class="room-id"></p>
+			</li>
+			<li>
+				<p>房间名称</p>
+				<input type="text" class="room-title" maxlength="15">
+			</li>
+			<li>
+				<p>房间管理</p>
+				<div class="rs-add-item rs-add-manager">
+					<ol>
+
+					</ol>
+					<a class="add-btn" href="javascript:void(0);">+添加管理</a>
+					<div class="rs-add-manager-val">
+						<input type="text" placeholder="用户昵称"><a href="javascript:void(0);">添加</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="room-set-right">	
+			<div class="live-img">房间图片</div>
+			<span id="uploadify"></span>
+			<p>(单张图片不得超过512K,支持jpg、gif、bmp、png格式)</p>
+		</div>
+		<div class="btns">
+			<a class="u-btn submit-btn fl" href="javascript:void(0);"></a>
+			<a class="u-btn cancel-btn fl" href="javascript:void(0);"></a>
+		</div>
+    </div>
+</div>

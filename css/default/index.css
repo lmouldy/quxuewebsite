@@ -1,0 +1,500 @@
+
+a{
+	color: #000;
+}
+
+a:hover{
+	color:#f70;
+}
+
+.home{
+	width: 1200px;
+	height: auto;
+	margin: 10px auto 30px;
+	font-family: 'Microsoft YaHei';
+}
+
+.nav-icon{
+	position: relative;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.nav-icon:before{
+	position: absolute;
+	top: 0;
+	left: -30px;
+	display: block;
+	content: url(../../images/default/home/icon.png);
+}
+
+.nav-title{
+	margin: 0 0 10px;
+}
+
+.content,
+.container{
+	position: relative;
+	width: 100%;
+	height: auto;
+	*zoom:1;
+}
+
+.content{
+	height: 512px;
+	margin-bottom: 20px;
+}
+
+.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.aside{
+	position: relative;
+	float: right;
+	width: 310px;
+}
+
+.video{
+	position: relative;
+	display: inline-block;
+	width: 908px;
+	height: 100%;
+	background-image: url(../../images/default/home/video-bg.png);
+	background-size: 100%;
+}
+
+#qxPlayerId {
+    width: 908px;
+    height: 512px;
+}
+
+.video div:first-child{
+	z-index: 1;
+}
+
+.video:hover .enter-room{
+	display: block;
+}
+
+.video:hover .enter-room:hover{
+	background:url(../../images/default/home/enter-room-active.png) no-repeat;
+}
+
+.enter-room{
+	display:none;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-21px;
+	margin-left:-93px;
+	width:186px;
+	height:42px;
+	background:url(../../images/default/home/enter-room.png) no-repeat;
+	z-index:10;
+	cursor: pointer;
+}
+
+.notice{
+	width: 289px;
+	height: 100%;
+	background: #626262;
+}
+
+.notice img {
+    display: block;
+    width: 289px;
+    height: 128px;
+    cursor: pointer;
+    /*border: 2px solid #626262;*/
+    border-bottom:0;
+}
+
+.notice img:last-child{
+	/*border-bottom: 2px solid #626262;*/
+}
+
+.notice img:hover {
+ 	/*border-color:#f70; */
+	opacity: 0.8;
+	filter:Alpha(opacity=80);
+}
+
+.main{
+	display: inline-block;
+	width: 100%;
+}
+
+.icon-teacher-recommend {
+	display: inline-block;
+	margin-top: 19px;
+	background-image: url(../../images/default/home/sprite.png);
+	background-position: 0px -95px;
+	width: 237px;
+	height: 38px;
+}
+
+.icon-teacher-course {
+	display: inline-block;
+	margin-top: 22px;
+	background-image: url(../../images/default/home/sprite.png);
+	background-position: 0px -133px;
+	width: 237px;
+	height: 35px;
+}
+
+a.more{
+	float: right;
+	position: relative;
+	margin-top: 48px;
+    margin-right: 16px;
+	color: #000;
+}
+
+.teacher-recommend dt i{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	content: '';
+	background-image: url(../../images/default/home/sprite.png);
+	background-position: 0px -168px;
+	width: 120px;
+	height: 64px;
+}
+
+.teacher-course dt i{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	content: '';
+	background-image: url(../../images/default/home/sprite.png);
+	background-position: -120px -168px;
+	width: 106px;
+	height: 42px;
+}
+
+.teacher-recommend-1,
+.teacher-recommend-2{
+	float: left;
+	width: 394px;
+	box-sizing: border-box;
+}
+
+.teacher-recommend-2{
+	margin: 0 10px;
+}
+
+.teacher-recommend-3{
+	float: right;
+	width: 394px;
+	margin-right: -6px;
+	box-sizing: border-box;
+}
+
+.live-type dt{
+	position: relative;
+	margin-right: 28px;
+	margin-bottom: 20px;
+}
+
+.preview dt{
+	font-size: 18px;
+	font-weight: 700;
+	margin: 10px;
+	padding-left: 8px;
+	border-left: 1px solid #000;
+}
+
+.live-box{
+	position: relative;
+	float: left;
+	display: block;
+	width: 194px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+
+.live-box img,
+.demand-play li img{
+	width: 100%;
+	height: 100%;
+}
+
+.live-box a:first-child{
+	display: block;
+	box-sizing: border-box;
+	width: 194px;
+	height: 101px;
+	/*border: 2px solid #626262;*/
+}
+
+.teacher-lesson-box .live-box{
+	width: 194px;
+	height: auto;
+	margin-right: 7px;
+}
+
+.teacher-lesson-box .live-box a:first-child{
+	width: 194px;
+	height: 109px;
+}
+
+/*.live-box a:first-child:hover,
+.demand-play li img:hover{
+	border: 2px solid #f70;
+	opacity: 0.8;
+	filter:Alpha(opacity=80);
+}*/
+
+.live-type .live-box .nickname{
+	display: block;
+	width: 100%;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #000;
+}
+
+.teacher-course .live-box span{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+
+.onlive{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+	height: 28px;
+	background: #ff7e7e;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Microsoft YaHei';
+	text-align: center;
+	border:1px solid #ff3333;
+}
+
+/*
+.preview{
+	background-image: url(../../images/default/home/preview-center.png);
+	background-repeat: repeat-y;
+	padding: 40px 32px 50px;
+    margin-right: -22px;
+}
+
+.preview-box{
+	position: relative;
+	width: 100%;
+	height: 141px;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow:hidden;
+}
+
+.preview:after {
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	display: block;
+	content: '';
+	background-image: url(../../images/default/home/sprite.png);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 51px;
+}
+
+.preview:before {
+	position: absolute;
+	top: -10px;
+	left: 0;
+	display: block;
+	content: '';
+	background-image: url(../../images/default/home/sprite.png);
+	background-position: 0px -51px;
+	background-repeat: no-repeat;
+	width: 305px;
+	height: 44px;
+}
+
+.preview-pic{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 120PX;
+	height: 112px;
+}
+
+.preview-title,
+.preview-information{
+	padding-left: 140px;
+}
+
+.preview-title{
+	width: 100%;
+	height: 21px;
+	line-height: 21px;
+	margin-bottom: 10px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.preview-information{
+	height: 72px;
+	line-height: 18px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	cursor: pointer;
+}*/
+
+.live-type .live-box .nickname:hover,
+.preview-title:hover,
+.preview-information:hover,
+a.more:hover{
+	color: #f70;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.demand{
+	position: relative;
+	display: inline-block;
+	width: 880px;
+	margin-top: 20px;
+}
+
+.person{
+	position: relative;
+	float: right;
+	width: 338px;
+	margin-top: 20px;
+	margin-right: -20px
+}
+
+.person img {
+    width: 100%;
+    height: 100%;
+}
+
+.demand-box{
+	width: 880px;
+	height: 216px;
+}
+
+.demand-box-01{
+	position: relative;
+	width: 880px;
+	height: 298px;
+}
+
+.demand-img,
+.demand-list{
+	display: inline-block;
+	float: left;
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.demand-img{
+	width: 411px;
+	height: 196px;
+}
+
+.demand-list{
+	width: 460px;
+	height: 140px;
+	overflow: hidden;
+}
+
+.demand-list-02{
+	position: relative;
+	width: 414px;
+	height: 80px;
+	padding: 0;
+	margin-top: 10px;
+	overflow: hidden;
+	z-index: 11;
+}
+
+.demand-img img{
+	width: 411px;
+	height: 196px;
+}
+
+.demand-play li,
+.person li{
+	float: left;
+}
+
+.demand-list li{
+	margin:0 20px 10px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.demand-list-02 li{
+	margin:0 0 10px;
+}
+
+.person li{
+	width: 149px;
+	height: 149px;
+    margin: 10px 20px 10px 0;
+}
+
+.demand-play {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    z-index: 10;
+}
+
+.demand-play li{
+	margin: 10px 6px 10px 0;
+}
+
+.demand-play li:first-child {
+    margin-left: 436px;
+}
+
+.demand-play li img{
+	width: 212px;
+	height: 120px;
+	/*border: 2px solid #626262;*/
+}
+
+.demand-play li span{
+	display: block;
+	width: 212px;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.teacher-lesson{
+	margin-top: 10px;
+}
+
+.teacher-lesson-box{
+	width: 1206px;
+	height: 139px;
+	margin-top: 10px;
+	overflow: hidden;
+}

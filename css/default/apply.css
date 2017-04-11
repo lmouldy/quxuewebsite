@@ -1,0 +1,312 @@
+@CHARSET "UTF-8";
+
+.inner0{
+	width:1200px;
+	margin:0 auto;
+}
+
+.inner1{
+	width:1200px;
+	overflow:hidden;
+	margin:0 auto;
+	padding:30px 0 0 0;
+}
+
+.apply-access-body{
+	position:relative;
+}
+
+.apply-access-body .inner1{
+	position:relative;
+	width:1200px;
+	height:1550px;
+	margin:0 auto;
+	background:url(/images/default/apply/itoa02.png) center top no-repeat;
+}
+.apply-access-body .apply-access-link{
+	position:absolute;
+	right:120px;
+	top:252px;
+	display:block;
+	width:196px;
+	height:61px;
+	background:url(/images/default/apply/apply_link_btn.png) no-repeat 0 0;
+}
+
+.apply-access-body .apply-access-link:hover{
+	background-position: 0 -68px;
+}
+
+.step{
+	width:880px;
+	height:60px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+.step div{
+	float:left;
+}
+
+.step .ste{
+	width:166px;
+	height:60px;
+	line-height:60px;
+	background:url(/images/default/apply/apply_step_bg.png);
+	font-family:microsoft yahei;
+	font-size:24px;
+	text-align:center;
+	color:#111;
+}
+
+.step .ste.active{
+	background:url(/images/default/apply/apply_step_bg_ac.png);
+}
+
+.step  .s-to-s{
+	height:100%;
+	padding:0 23px;
+}
+
+.step  .s-to-s img{
+	position:relative;
+	top:20px;
+	left:0;
+}
+
+.con{
+	width:1160px;
+	display:none;
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+	border:5px solid #626262;
+	padding:30px 0 100px;
+	margin:50px auto 0 auto;
+}
+
+.con.active{
+	display:block;
+}
+
+.con i{
+	display:block;
+	width:88px;
+	height:85px;
+	position:absolute;
+	background-size:88px 85px;
+	z-index:1;
+}
+
+.con i.i1{
+	top:0;
+	left:0;
+	background:url(/images/default/apply/apply_border_l_t.png);
+}
+
+.con i.i2{
+	bottom:0;
+	left:0;
+	background:url(/images/default/apply/apply_border_l_b.png);
+}
+
+.con i.i3{
+	top:0;
+	right:0;
+	background:url(/images/default/apply/apply_border_r_t.png);
+}
+
+.con i.i4{
+	bottom:0;
+	right:0;
+	background:url(/images/default/apply/apply_border_r_b.png);
+}
+
+.con.con1 .content{
+	width:1020px;
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+	z-index:2;
+}
+
+.con.con1 p{
+	font-family:microsoft yahei;
+	font-size:16px;
+	line-height:30px;
+	color:#111;
+	padding:18px 0;
+}
+
+.con.con2 .content{
+	width:890px;
+	padding-left:300px;
+	overflow:hidden;
+}
+
+.con.con2 .content p{
+	display:block;
+	width:100%;
+	overflow:hidden;
+	padding-left:80px;
+	height:60px;
+	line-height:60px;
+	font-family:microsoft yahei;
+	font-size:18px;
+	color:#4c4c4c;
+	position:relative;
+	
+}
+
+.con .content b{
+	font-weight:normal;
+	display:block;
+	width:80px;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.con .content b.b2{
+	letter-spacing:41px;
+}
+
+.con .content b.b3{
+	letter-spacing:11px;
+}
+
+.con .content b.b4{
+	letter-spacing:2px;
+}
+
+.con .content input[type="text"]{
+	width:380px;
+	height:38px;
+	margin-left:22px;
+	vertical-align: middle;
+	border:2px solid #bfbfbf;
+	padding:0 5px;
+}
+
+.con .content input[type="radio"]{
+	display:none;
+}
+
+.con .content label{
+	width:96px;
+	margin-left:18px;
+	padding-left:27px;
+	cursor:pointer;
+	background:url(/images/default/apply/apply_choice.png) left no-repeat;
+}
+
+.con .content label.first{
+	margin-left:41px;
+}
+
+.con .content label.active{
+	background:url(/images/default/apply/apply_chosen.png) left no-repeat;
+}
+
+.con .content span.spe1{
+	float:left;
+}
+
+.con .content span.add-sel{
+	margin:17px 0 0 15px;
+	display:block;
+    width:117px;
+    height:30px;
+    position:relative;
+    border-right:2px solid #bfbfbf;
+	overflow:hidden;
+	line-height:18px;
+	float:left;
+}
+
+.con .content select{
+	width:140px;
+	height:30px;
+	line-height:18px;
+	border:2px solid #bfbfbf;
+	font-family:microsoft yahei;
+	font-size:18px;
+	color:#4c4c4c;
+	appearance:none;
+  	-moz-appearance:none;
+  	-webkit-appearance:none;
+  	padding-left:8px;
+  	z-index:2;
+  	position:relative;
+  	background:url(/images/default/apply/apply_closed.png) 90px center no-repeat;
+}
+
+.con .content p img{
+	position:absolute;
+	left:120px;
+	top:27px;
+	max-height:228px;
+	cursor:pointer;
+}
+
+.con .content #poster{
+	float:left;
+	padding:25px 0 0 22px;
+}
+
+.con3{
+	height:390px;
+}
+
+.con3 div{
+	width:60px;
+	padding-top:35px;
+	margin:0 auto;
+}
+
+.con3 p{
+	font-family:microsoft yahei;
+	font-size:24px;
+	line-height:40px;
+	color:#ff8e2a;
+	position:absolute;
+}
+
+.con3 p.p1{
+	top:175px;
+	left:180px;
+}
+
+.con3 p.p2{
+	top:215px;
+	left:180px;
+}
+
+.next{
+	padding:70px 0 230px 0;
+	position:relative;
+	display:none;
+}
+
+.next.active{
+	display:block;
+}
+
+.next div{
+	width:196px;
+	height:61px;
+	line-height:61px;
+	font-family:microsoft yahei;
+	font-size:26px;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+}
+
+.next .ne{
+	margin:0 auto;
+	background:url(/images/default/apply/apply_next.png) no-repeat;
+}

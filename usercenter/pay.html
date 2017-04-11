@@ -1,0 +1,51 @@
+<h3 class="u-tit-h3 u-tit-15">账户充值</h3>
+<dl class="u-con pay-center">
+    <dd class="clearfix">
+        <label class="tag-name">当前充值账号：</label>
+        <span class="pay-nick">用户昵称</span>
+    </dd>
+    <dd class="clearfix">
+        <label class="tag-name">您的账户余额：</label>
+        <span class="coin-num"><b>0</b>金币</span>
+    </dd>
+    <dd class="clearfix">
+        <label class="tag-name">充值金额：</label>
+        <ul class="pay-num-selector">
+            <li class="active" data-num="5">5元</li>
+            <li data-num="10">10元</li>
+            <li data-num="20">20元</li>
+            <li data-num="30">30元</li>
+            <li data-num="50">50元</li>
+            <li data-num="100">100元</li>
+            <li data-num="200">200元</li>
+            <li data-num="300">300元</li>
+            <li data-num="500">500元</li>
+            <li data-num="1000">1000元</li>
+            <li data-num="2000">2000元</li>
+            <li data-num="3000">3000元</li>
+            <li data-num="5000">5000元</li>
+            <li data-num="10000">10000元</li>
+        </ul>
+    </dd>
+    <dd class="clearfix">
+        <label class="tag-name">其它金额：</label>
+        <input id="otherPay" class="diy-num" type="text" maxlength="5">&nbsp;元&nbsp;<b class="otherwarn">（请输入1元至1万元以内的整数）</b>
+    </dd>
+    <dd class="clearfix">
+        <label class="tag-name">可购买金币：</label>
+        <span class="pay-coin"><b>5</b>金币</span>
+    </dd>
+    <dd class="clearfix">
+        <label class="tag-name">充值方式：</label>
+        <ul class="pay-type">
+            <li data-order="2"><input checked id="alipay" data-role="2" name="payChannel" type="radio"><label class="pay-menu1" for="alipay"></label></li>
+            <li data-order="1"><input id="unionPay" data-role="1"  name="payChannel" type="radio"><label class="pay-menu2" for="unionPay"></label></li>
+            <li data-order="3"><input id="tenPay" data-role="3" name="payChannel" type="radio"><label class="pay-menu3" for="tenPay"></label></li>
+            <li data-order="4"><input id="wechatPay" data-role="4" name="payChannel" type="radio"><label class="pay-menu4" for="wechatPay"></label></li>
+        </ul>
+    </dd>
+    <dd class="clearfix"><p class="tips">温馨提示：人民币与金币的兑换比例为1:1</p></dd>
+    <dd class="clearfix">
+        <a class="pay-submit" href="javascript:void(0);"></a>
+    </dd>
+</dl>

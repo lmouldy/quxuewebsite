@@ -1,0 +1,90 @@
+<h3 class="u-tit-h3 u-tit-03">名师课程</h3>
+<div class="u-con course-intro">
+    <div class="ci-main">
+    	<div class="ci-tab">
+    		<a class="u-add-btn fl" href="javascript:void(0);"></a>
+    		<div class="fl ci-tips">总容量：<span class="ci-total-size">2G</span>已使用：<span class="ci-use-size">0</span></div>
+    	</div>
+        <dl></dl>
+    </div>
+    <div id="courseWareEditBox" class="u-pop-layer ci-upload-course">
+        <ul>
+        	<li class="ci-promt">（温馨提示：课件总容量不得超过2G）</li>
+        	<li class="ci-promt ci-update-promt">（课件编辑默认不更新视频，如需更新视频请选择已上传的课件或者重新上传视频文件）</li>
+            <li class="ci-file">
+           		<div class="file-choose">
+           			<p><input type="checkbox" name="courseWare" id="chooseFile"><label for="chooseFile">选择已上传的课件文件：</label></p>
+           			<ol></ol>
+           		</div>
+           		<div class="file-upload">
+           			<p><input type="checkbox" name="courseWare" id="uploadFile" checked>
+           			   <label for="uploadFile">上传课件：</label>
+           			   <a id="qxUploadsLinkBtn" href="javascript:void(0)">下载文件上传助手</a>
+           			</p>
+	                <div class="upload-pic">
+	                    <div class="pic-show"></div>
+	                    <a id="uploadCouserBtn" href="javascript:void(0);"></a>
+	                </div>
+           		</div>
+            </li>
+            <li>
+                <p>课件类型</p>
+                <select id="saleType">
+                    <option value="0">免费</option>
+                    <option value="1">收费</option> 
+                </select>
+            </li>
+            <li>
+                <p>课件名称</p>
+                <input type="text" class="course-ware-name" maxlength="20">
+            </li>
+            <li class="ci-btns">
+                <a class="u-btn submit-btn fl" href="javascript:void(0);"></a>
+                <a class="u-btn cancel-btn fl" href="javascript:void(0);"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="u-pop-layer ci-new-course">
+        <ul class="fl">
+            <li>
+                <p>课程名称：</p>
+                <input type="text" name="courseName" maxlength="20">
+            </li>
+            <li>
+                <p>课程类型：</p>
+                <select id="courseType">
+                    <option value="1">钢笔字帖</option>
+                    <option value="2">行书</option>
+                    <option value="3">行书字帖</option>
+                    <option value="4">硬笔书法</option>
+                    <option value="5">楷书</option>
+                    <option value="6">字帖</option>
+                </select>
+            </li>
+            <li>
+                <p>课程定价：</p>
+                <input type="text" name="coursePrice" placeholder="请输入整数" maxlength="6">
+            </li>
+            <li>
+                <p>课程有效期：</p>
+                <select id="courseTime">
+                    <option value="3">3个月</option>
+                    <option value="6">6个月</option>
+                    <option value="12">12个月</option>
+                </select>
+            </li>
+        </ul>
+        <div class="fr upload-course-poster" >
+            <p>课程图片</p>
+            <div class="upload-pic">
+                <div class="pic-show"><img></div>
+                <a id="uploadPic" href="javascript:void(0);"></a>
+            </div>
+            <p class="upload-tips">(单张图片不得超过512K，<br>支持jpg、gif、bmp、png格式)</p>
+        </div>
+        <div class="ci-btns clearfix">
+            <a class="u-btn submit-btn fl" href="javascript:void(0);"></a>
+            <a class="u-btn cancel-btn fl" href="javascript:void(0);"></a>
+        </div>
+    </div>
+</div>

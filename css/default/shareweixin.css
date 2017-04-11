@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+#out-mod{
+	width:700px;
+	height:630px;
+	overflow-y: hidden;
+}
+
+#head1{
+	width:100%;
+	height:50px;
+	border-bottom:1px solid #ecc;
+}
+
+#weixin1{
+	width:700px;
+	height:200px;
+	text-align:center;
+}
+
+#weixin1 p{
+	height:35px;
+	line-height:35px;
+	font-size:15px;
+	font-family:微软雅黑;
+	color:rgb(160,29,35);
+}
+
+#weixin1 img{
+	margin-top:7px;
+}
+
+#weixin2{
+	width:650px;
+	height:400px;
+	margin-top:10px;
+	padding:10px 0 0 5px;
+	border-top:1px dashed #d8d8d8;
+	position:relative;
+}
+
+.f-l{
+	float:left;
+}
+
+.weixin2-1{
+	width:100px;
+	height:100%;
+}
+
+.weixin2-1 img{
+	width:80px;
+
+}
+
+.weixin2-2{
+	width:220px;
+	heiht:100%;
+	color: #333;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	position:relative;
+}
+
+.weixin2-2 img{
+	width:200px;
+	position:absolute;
+	top:55px;
+	left:-10px;
+	
+}

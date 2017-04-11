@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>书法报视频在线教育平台</title>
+		<meta http-equiv="keywords" content="书法报视频在线教育平台" />
+		<meta http-equiv="description" content="书法报视频在线教育平台" />
+    	<meta name="renderer" content="webkit">
+    	<meta property="qc:admins" content="34710146116015106375" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="shortcut icon" href="/images/pm/default/quxue.ico" >
+    	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    	<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />    
+		<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=1353924884&debug=true" type="text/javascript" charset="utf-8"></script>
+		<style>
+		    *{
+		    	margin:0;padding:0; font-size:13px;
+		    	font-family: 'Microsoft yahei';
+		    }
+		    .box{
+		    	position:absolute;
+		    	left:50%;
+		    	top:0;
+		    	margin-left:-200px;
+		    }
+		    a{
+		    	color:#ff00ff;
+		    	text-decoration:underline;
+		    }
+		    .title{
+			    background-color:#00A8FF;
+				border:#eaeaea 1px solid;
+				border-bottom: 0;
+				line-height: 30px;
+				text-indent: 20px;
+				border-radius: 4px 4px 0 0;
+				color:#fff;
+			}
+		    .inner{
+		    	min-height:100px;
+		    	min-width:400px;
+		    	border:#eaeaea 1px solid;
+		    	border-top:0;
+		    	padding:10px;
+		    	border-radius: 0 0 4px 4px;
+		    }
+		    .inner p{
+		    	line-height:24px;
+		    	padding-top:20px;
+		    	clear:both;
+		    	font-size:14px;
+		    }
+		    .count{
+		    	float:left;
+		    	line-height:35px;
+		    	color:#999;
+		    }
+		    .tip p{
+		    	display:none;
+		    	height:32px;
+		    	line-Height:32px;
+		    }
+		    .loading{
+		    	background:url(../../../images/default/loading.gif) 0% 80% no-repeat;
+		    	padding-left:40px;
+		    }
+		    .loaded{
+		    	background:url(../../../images/default/fail-small.png) 0% 100% no-repeat;
+		    	padding-left:40px;
+		    }
+		</style>
+	</head>
+	<body>
+		
+		<div class="box" id="tips">
+			<div class="title">sina微博登录书法报视频</div>
+			<div class="inner">
+				<div id="wb_connect_btn" style="width:146px;margin-right:10px;float:left"></div>
+				<div class="tip">
+					<p class="loading" id="loading">跳转书法报视频中...</p>
+					<p class="loaded" id="loaded">抱歉！页面未能成功跳转，<a href="http://edu.baiqu.tv">请点击这里</a></p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/sea.js"></script>
+		<script>
+			seajs.use("../js/page/third_login.js",function(ex){
+				ex.b(WB2);
+			});
+		</script>
+	</body>
+</html>

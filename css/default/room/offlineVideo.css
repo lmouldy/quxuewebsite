@@ -1,0 +1,537 @@
+.fixed{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;
+}
+
+.fixed-inner{
+	width:1200px;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+.header-out{
+	width:1200px;
+}
+
+.container{
+    width:1200px;
+    margin-bottom:20px;
+    margin-top:10px;
+    overflow:hidden;
+}
+
+.fl{
+	position:relative;
+	z-index:3;
+}
+
+.ov-detail{
+    width:907px;
+    overflow:hidden;
+    padding-top:95px;
+    position:relative;
+    z-index:2;
+}
+
+.ov-intro{
+    width:280px;
+    height:605px;
+    position:relative;
+    border-left:2px solid #626262;
+    border-right:2px solid #626262;
+    border-bottom:2px solid #626262;
+}
+
+.ov-intro-top{
+	width:100%;
+	height:200px;
+}
+
+.ov-intro-bottom{
+	width:100%;
+	height:335px;
+}
+
+.ov-detail .ov-info{
+    width:100%;
+    height:84px;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: #fff;
+    border:2px solid #626262;
+}
+
+.ov-info .ov-ava,
+.ov-info .ov-ava img{
+    width:74px;
+    height:74px;
+}
+
+.ov-info .ov-ava{
+    margin:3px;
+}
+
+.ov-info .ov-course{
+    margin-left:30px;
+}
+
+.ov-info .ov-course p{
+    line-height: 40px;
+}
+.ov-info .ov-course .ov-teacher{
+    font-size:18px;
+}
+
+.ov-course .ov-teacher span{
+    color:#a01d23;
+    margin-right:15px;
+}
+
+.ov-info .ov-course .ov-tit{
+    font-size:16px;
+    color:#282828;
+}
+
+.ov-info .ov-room-link{
+    width:138px;
+    height:37px;
+    background: url(../../../images/default/room/offlineVideo_btn.png) no-repeat 0 -92px;
+    margin:20px 22px 0 0;
+}
+
+.ov-info .ov-room-link:hover{
+	background-position:-191px -89px;
+}
+
+.ov-detail .ov-player{
+    width:100%;
+    height:513px;
+    border:2px solid #626262;
+}
+
+.ov-intro .ov-tab{
+    width:100%;
+    height:65px;
+    background: url(../../../images/default/room/offlineVideo_tab_bg.png) center right no-repeat;
+}
+
+.intro-video{
+	display:none;
+}
+
+.intro-video.active{
+	display:block;
+}
+
+.intro-teacher{
+	display:none;
+	height:540px;
+}
+
+.intro-teacher.active{
+	display:block;
+}
+
+.intro-teacher .inner1{
+	height:99%;
+	padding:0 20px 0 10px;
+	overflow:auto;
+}
+
+.intro-teacher .inner1 img{
+	min-height:140px;
+	display:block;
+	padding:15px 0 10px;
+	margin:0 auto;
+}
+
+.intro-teacher .inner1 p{
+	font-family:微软雅黑;
+	font-size:12px;
+	color:#515151;
+	line-height:22px;
+	text-indent:24px;
+}
+.intro-teacher .inner1 span{
+	word-break: break-all!important;
+	white-space: normal!important;
+}
+.ov-intro .ov-tab a{
+    float:left;
+    display:block;
+    font-size:20px;
+    line-height: 65px;
+    margin:0 15px 0 25px;
+    color:#000;
+}
+
+.ov-intro .ov-tab a.active{
+    color:#a01d23;
+}
+
+.ov-intro .ov-desc{
+    width:100%;
+    height:200px;
+    background-color: #fff;
+}
+
+.ov-desc .ov-course-detail{
+    padding:10px 10px 0 10px;
+}
+
+.ov-course-detail .ov-c-info{
+    border-bottom:1px solid #dadada;
+    overflow:hidden;
+}
+
+.ov-c-info .ov-c-poster{
+    width:115px;
+    height:125px;
+    padding:10px 10px 0 10px;
+}
+
+.ov-c-info .ov-c-poster p{
+	line-height:110px;
+}
+
+.ov-c-info .ov-c-poster p img{
+	width:95px;
+	height:	115px;
+	vertical-align:middle;
+}
+
+.ov-c-info .ov-c-course{
+	max-width:123px;
+}
+
+.ov-c-info .nh{
+	max-width:123px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ov-c-info dl{
+    margin-left:10px;
+}
+
+.ov-c-info dl>dt{
+    line-height: 32px;
+    font-size:17px;
+    font-weight: bold;
+    color:#515151;
+}
+
+.ov-c-info dl>dd{
+    color:#515151;
+    line-height:24px;
+}
+
+.ov-course-detail .ov-c-info .ov-pay-link{
+    display:block;
+    width:170px;
+    height:36px;
+    line-height:36px;
+    background: url(../../../images/default/room/offlineVideo_btn.png) 0 0 no-repeat;
+    text-align:center;
+    font-family:微软雅黑;
+    font-size:16px;
+    color:#fff;
+    margin:5px auto 10px;
+}
+
+.ov-course-detail .ov-c-info .ov-pay-link:hover{
+	background-position:-191px 0;
+}
+
+.ov-course-detail .ov-c-info .ov-pay-link.disable{
+	background-position:0 -184px;
+	cursor:default;
+}
+
+.ov-c-list{
+	width:100%;
+}
+
+.ov-c-list h2{
+    line-height:40px;
+    font-size:18px;
+    padding-left:10px;
+}
+
+.ov-c-list ul{
+	max-height:290px;
+	overflow-y:auto;
+}
+
+.ov-c-list ul>li{
+    height:28px;
+    line-height:28px;
+    padding:0 5px 0 15px;
+    color:#363636;
+    font-family:SimSun;
+    cursor:pointer;
+}
+
+.ov-c-list ul>li span{
+    float:right;
+}
+
+.ov-c-list ul>li.on{
+    background-color: #626262;
+    color:#fff;
+}
+
+.ov-desc .ov-teacher-detail{
+    display:none;
+    text-indent: 2em;
+    color:#515151;
+}
+
+.ov-teacher-detail{
+	width:100%;
+	overflow:hidden;
+}
+
+.ov-teacher-detail img{
+	max-width:90%;
+	height:150px;
+	margin:0 auto;
+}
+
+.ov-teacher-detail p{
+	font-family:微软雅黑;
+	font-size:12px;
+	color:#515151;
+}
+
+.handle{
+	width:100%;
+	height:55px;
+	padding:20px 0 0;
+}
+
+.handle div{
+	float:left;
+}
+
+.collect{
+	width:78px;
+	height:38px;
+	cursor:pointer;
+	background: url(../../../images/default/room/offlineVideo_btn.png) no-repeat 0 -46px;
+}
+
+.collect.done{
+	background-position:-90px -46px;
+}
+
+.collect:hover{
+	background-position:-190px -46px;
+}
+
+.collect.done:hover{
+	background-position:-281px -46px;
+}
+
+.share-text{
+	width:110px;
+	height:40px;
+	line-height:40px;
+	font-family:微软雅黑;
+	font-size:18px;
+	color:#7b7b7b;
+	margin-left:150px;
+}
+
+.share-way{
+	width:210px;
+	height:50px;
+}
+
+.share-way a{
+	display:block;
+	float:left;
+	width:45px;
+	height:45px;
+	background: url(../../../images/default/room/offlineVideo_btn.png) no-repeat;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+.share-way .weibo{
+	background-position:0 -134px;
+}
+
+.share-way .weibo:hover{
+	background-position:-191px -134px;
+}
+
+.share-way .qq{
+	background-position:-45px -134px;
+}
+
+.share-way .qq:hover{
+	background-position:-237px -134px;
+}
+
+.share-way .qzong{
+	background-position:-90px -134px;
+}
+.share-way .qzong:hover{
+	background-position:-282px -134px;
+}
+.share-way .weixin{
+	background-position:-136px -134px;
+}
+
+.share-way .weixin:hover{
+	background-position:-328px -134px;
+}
+
+.review-num{
+	margin-left:100px;
+	width:125px;
+	height:45px;
+	line-height:72px;
+	position:relative;
+	text-align: center;
+}
+
+.review-num i{
+	display:block;
+	width:28px;
+	height:26px;
+	position:absolute;
+	top:0;
+	left:49px;
+	background: url(../../../images/default/room/offlineVideo_btn.png) no-repeat -1px -229px;
+}
+
+.played-num{
+	margin-left:20px;
+	width:125px;
+	height:45px;
+	line-height:72px;
+	position:relative;
+	text-align: center;
+}
+
+.played-num i{
+	display:block;
+	width:35px;
+	height:26px;
+	position:absolute;
+	top:1px;
+	left:42px;
+	background: url(../../../images/default/room/offlineVideo_btn.png) no-repeat -35px -229px;
+}
+.review{
+	margin-top:30px;
+	width:907px;
+	overflow:hidden;
+	background: url(../../../images/default/room/course_intro_bg.png) repeat;
+	border:2px solid #bfb09c;
+}
+
+.show-review{
+	width:907px;
+	padding:0 16px;
+}
+
+.review-window{
+	max-height:420px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.review .review-con{
+	width:907px;
+	overflow:hidden;
+	padding:18px 0 0 17px;
+	border-bottom:1px solid #c7bea5;
+}
+
+.review .do-review{
+	width:907px;
+	overflow:hidden;
+	padding:27px 16px 0 16px;
+}
+
+.review .do-review .in-mod{
+	width:100%;
+	overflow:hidden;
+	padding:0 0 20px 16px;
+	border-bottom:2px solid #c7bea5;
+}
+
+.f-l{
+	float:left;
+}
+
+.review .do-review input{
+	width:750px;
+	height:38px;
+	padding:0 3px;
+}
+
+.review .do-review .review-btn{
+	width:86px;
+	height:38px;
+	line-height:38px;
+	margin-left:8px;
+	border:1px solid #aaa;
+	background:#ff7e00;
+	font-family:微软雅黑;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	cursor:pointer;
+}
+
+.review-con img{
+	width:58px;
+	height:58px;
+	float:left;
+}
+
+.review-con .review-info{
+	float:left;
+	width:745px;
+	overflow:hidden;
+	margin-left:40px;
+}
+
+.review-con p{
+	float:left;
+	display:block;
+	font-family:微软雅黑;
+}
+
+.review-con p.con-name{
+	margin-top:4px;
+	font-size:14px;
+	color:#3d3d3d;
+}
+
+.review-con p.con-time{
+	margin-top:4px;
+	margin-left:75px;
+	font-size:14px;
+	color:#3d3d3d;
+}
+
+.review-con p.con-text{
+	margin-top:10px;
+	padding-bottom:20px;
+	width:745px;
+	font-size:18px;
+	color:#111;
+}
